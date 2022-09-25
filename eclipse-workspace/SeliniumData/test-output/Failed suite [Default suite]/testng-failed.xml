@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Default suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)(failed)">
+    <classes>
+      <class name="TestNG.demo22">
+        <methods>
+          <include name="validatehomePageUrl"/>
+          <include name="homepageTitle"/>
+          <include name="homePageLogo"/>
+        </methods>
+      </class> <!-- TestNG.demo22 -->
+      <class name="TestNG.demo32">
+        <methods>
+          <include name="validatehomePageUrl"/>
+          <include name="homePageLogo"/>
+          <include name="homepageTitle"/>
+        </methods>
+      </class> <!-- TestNG.demo32 -->
+      <class name="TestNG.demo55">
+        <methods>
+          <include name="createANewEmployee"/>
+          <include name="searchEmployeeInPIMPage"/>
+          <include name="setUP"/>
+          <include name="validateHomePageLogo"/>
+          <include name="loginFunctionality"/>
+          <include name="deleteUserInPIM"/>
+          <include name="validateHomePageTitle"/>
+          <include name="validateUserIsonPIMPage"/>
+          <include name="validateHomePageUrl"/>
+        </methods>
+      </class> <!-- TestNG.demo55 -->
+      <class name="TestNG.demo7">
+        <methods>
+          <include name="homePageLogo"/>
+          <include name="homepageTitle"/>
+          <include name="validatehomePageUrl"/>
+        </methods>
+      </class> <!-- TestNG.demo7 -->
+      <class name="TestNG.demo19">
+        <methods>
+          <include name="validateHomePageTitle"/>
+          <include name="validateUserIsonPIMPage"/>
+          <include name="validateHomePageUrl"/>
+          <include name="createANewEmployee"/>
+          <include name="searchEmployeeInPIMPage"/>
+          <include name="setUP"/>
+          <include name="validateHomePageLogo"/>
+          <include name="loginFunctionality"/>
+          <include name="deleteUserInPIM"/>
+        </methods>
+      </class> <!-- TestNG.demo19 -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->
